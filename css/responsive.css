@@ -1,0 +1,21 @@
+/* adjust text block to smaller devices */
+@media only screen and (max-width : 1200px) {
+    .container .row .text-block {
+        margin-top: 15px;
+    }
+
+    .container .row .top-links {
+        margin-top: 20px;
+    }
+}
+/* adjust images to smaller devices */
+@media only screen and (max-width : 992px) {
+    .container .row .col-md-6 .img-center {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container .row .col-md-6 .img-extra-margin {
+        margin-bottom: 25px;
+    }
+}
